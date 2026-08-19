@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora simples</title>
+
+    <!--font awesome-->
+    <link rel="stylesheet" href="fontes/fontawesome-free-7.2.0-web/fontawesome-free-7.2.0-web/css/all.min.css">
+
+    <!--css-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--media queries-->
+    <link rel="stylesheet" href="mediaQueries.css">
+
+    <!--bootsrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+
+    <div class="containerCalculadora"> <!--containerCalculadora-->
+
+        <main class="main">
+
+            <section id="calculadora" class="container"> <!--calculadora-->
+
+                <div class="calculadora__result">
+
+                    <input type="text" id="inputResult" class="form-control" placeholder="0">
+
+                </div>
+
+
+
+                <div class="calculadora-items__buttons">
+
+                    <div value="limpar" class="calculadora__btn simbolo__secondary">
+                        <i class="fa-solid fa-eraser"></i>
+                    </div>
+
+                    <div value="=" class="calculadora__btn simbolo__secondary">
+                       <i class="fas fa-equals"></i>
+                    </div>
+
+                    <div value="0" class="calculadora__btn simbolo__secondary zero">
+                        0
+                    </div>
+
+
+
+                    <div value="/" class="calculadora__btn simbolo__orange">
+                        <i class="fa-solid fa-divide"></i>
+
+                    </div>
+
+
+
+                </div>
+
+                <div class="calculadora-items__buttons">
+
+                    <div value="7" class="calculadora__btn">
+                        <p>7</p>
+                    </div>
+
+                    <div value="8" class="calculadora__btn">
+                        <p>8</p>
+                    </div>
+
+                    <div value="9" class="calculadora__btn">
+                        <p>9</p>
+                    </div>
+
+
+
+                    <div value="x" class="calculadora__btn simbolo__orange">
+                        <i class="fa-solid fa-xmark"></i>
+
+                    </div>
+
+                </div>
+
+                <div class="calculadora-items__buttons">
+
+
+                    <div value="4" class="calculadora__btn">
+                        <p>4</p>
+
+                    </div>
+
+
+                    <div value="5" class="calculadora__btn">
+                        <p>5</p>
+
+                    </div>
+
+                    <div value="6" class="calculadora__btn">
+                        <p>6</p>
+
+                    </div>
+
+                    <div value="-" class="calculadora__btn simbolo__orange">
+                        <i class="fa-solid fa-minus"></i>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="calculadora-items__buttons">
+
+                    <div value="1" class="calculadora__btn">
+                        <p>1</p>
+
+                    </div>
+
+
+                    <div value="2" class="calculadora__btn">
+                        <p>2</p>
+
+                    </div>
+
+
+                    <div value="3" class="calculadora__btn">
+                        <p>3</p>
+
+                    </div>
+
+
+                    <div value="+" class="calculadora__btn simbolo__orange">
+                        <i class="fa-solid fa-plus"></i>
+
+                    </div>
+
+
+
+
+
+                </div>
+
+
+
+
+
+
+            </section><!--calculadora-->
+
+
+        </main>
+
+    </div><!--containerCalculadora-->
+
+
+    <!--scripts-->
+    <script src="script.js"></script>
+</body>
+
+</html>
